@@ -88,7 +88,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
    # "http://127.0.0.1:4200",
 ]
-
+ALLOWED_HOSTS = ["*"]
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
